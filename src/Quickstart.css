@@ -1,0 +1,43 @@
+.quickstart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+.quickstart-logo {
+  width: 196px;
+  height: 38px;
+}
+
+.quickstart-header {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+
+}
+
+.quickstart-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #525866;
+  margin-bottom: 20px;
+  letter-spacing: -0.011em;
+}
+
+.quickstart-button {
+  display: inline-block;
+  background-color: #042b55;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  width:fit-content;
+}

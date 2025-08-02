@@ -1,15 +1,18 @@
 import React from 'react';
+import './Quickstart.css';
 
 
 function Quickstart() {
     return (
-        <div className="news-container">
-            <h2>Latest News</h2>
-            <ul>
-                <li>News item 1</li>
-                <li>News item 2</li>
-                <li>News item 3</li>
-            </ul>
+        <div className="quickstart-container">
+            <img src="/karakus_logo.png" className="quickstart-logo" alt="karakus logo" />
+            <div className="quickstart-header">
+                Generative AI Platform
+            </div>
+            <div className="quickstart-description">
+                Karakus is a platform that allows you to create, manage, and deploy generative AI models with ease.Karakus is a platform that allows you to create, manage, and deploy generative AI models with ease.Karakus is a platform that allows you to create, manage, and deploy generative AI models with ease.
+            </div>
+            <button className="quickstart-button">Developer Quickstart</button>
         </div>
     );
 }
